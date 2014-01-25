@@ -1,0 +1,10 @@
+<div class="large-6 columns">
+  <p>&copy; Copyright 2014 DidItBetter.com Software</p>
+</div>
+<div class="large-6 columns">
+  <ul class="inline-list right">
+    <% data.site.nav.each do |page| %>
+      <a href="<%= page.url %>"><small><%= page.name %></small></a>
+    <% end %>
+  </ul>
+</div>

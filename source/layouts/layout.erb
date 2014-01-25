@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= current_page.data.title || "Binaryphile" %></title>
+    <title><%= current_page.data.title %></title>
     <!-- If you are using the gem version, you need this only -->
     <%= stylesheet_link_tag "app" %>
     <%= javascript_include_tag  "modernizr" %>
@@ -12,16 +12,16 @@
   <body>
     <div class="row">
       <div class="large-12 columns">
-        <%= partial "nav" %>
+        <%= partial "header" %>
       </div>
     </div>
     <div class="row">
-      <div class="large-9 columns" role="content">
-        <%= yield %>
-      </div>
       <aside class="large-3 columns">
         <%= partial "sidebar" %>
       </aside>
+      <div class="large-9 columns" role="content">
+        <%= yield %>
+      </div>
     </div>
     <footer class="row">
       <div class="large-12 columns">

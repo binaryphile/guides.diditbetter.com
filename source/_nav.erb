@@ -1,0 +1,7 @@
+<div class="nav-bar right">
+  <ul class="button-group">
+  <% data.site.nav.each do |page| %>
+    <a class="button small" href="<%= page.url %>"><%= page.name %></a>
+  <% end %>
+  </ul>
+</div>

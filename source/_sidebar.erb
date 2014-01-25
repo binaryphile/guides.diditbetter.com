@@ -1,0 +1,7 @@
+<h5>Products</h5>
+
+<ul class="side-nav">
+  <% data.site.sidebar.each do |product| %>
+    <li><a href="<%= product.url %>"><%= product.name %></a></li>
+  <% end %>
+</ul>

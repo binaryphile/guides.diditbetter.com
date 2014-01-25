@@ -1,0 +1,114 @@
+nav:
+  - name: Add2Exchange
+    url: a2e-guide
+  - name: Add2Outlook
+    url: a2o-guide
+  - name: RMM
+    url: rmm-enterprise
+  - name: TaskController
+    url: taskcontroller
+
+sidebar:
+  - name: Add2Exchange Enterprise
+    url: "#a2e-enterprise"
+  - name: Add2Exchange Standard
+    url: "#a2e-standard"
+  - name: Add2Outlook
+    url: "#add2outlook"
+  - name: Recovery and Migration Manager Enterprise
+    url: "#rmm-enterprise"
+  - name: TaskController
+    url: "#taskcontroller"
+
+products:
+  - name: Add2Exchange Enterprise
+    image: a2e_ent_box_left_250.png
+    id: a2e-enterprise
+    url: a2e-guide
+    descriptions:
+      - |
+        Add2Exchange Enterprise edition is a robust server-side product
+        which automatically synchronizes items between any combination
+        of Exchange public folders and Outlook personal folders with
+        changes possible in either direction based on the settings you
+        select.  Add2Exchange Enterprise is a versatile and
+        multi-featured solution which supports synchronization of
+        Calendars, Contacts, Tasks, Posts and Notes folders and is ideal
+        for anyone interested in GAL Sync for Contacts.
+      - |
+        Add2Exchange Enterprise is useful for your road warriors who use
+        smartphones and mobile devices (iPhones, iPads, Androids,
+        BlackBerry, pocket PCs, PDAs) and need to view Exchange public
+        folder information on their devices.
+  - name: Add2Exchange Standard
+    image: a2e-std-box-left-250.png
+    id: a2e-standard
+    url: a2e-guide
+    descriptions:
+      - |
+        Add2Exchange Standard edition is an Exchange add-on which
+        automatically synchronizes items between any combination of
+        Exchange public and/or Outlook personal (mailbox) folders and
+        handles the synchronization and changes between the selected
+        folders based on the settings you select.Add2Exchange Standard
+        supports synchronization of Calendar, Contact, and Task folders
+        in any direction -- public to private, private to public, public
+        to public, private to private, multiple public to multiple
+        private.
+      - |
+        For mobility, Add2Exchange can sync contents from the selected
+        public folder to the personal folder for your users who have
+        smartphones and mobile devices (iPhones, iPads, Androids,
+        BlackBerry, pocket PCs, PDAs). Add2Exchange helps you share
+        information and keep your calendar, contact and task folders in
+        sync at the workplace and on the go.
+  - name: Add2Outlook
+    image: a2o-box-left-250.png
+    id: add2outlook
+    url: a2o-guide
+    descriptions:
+      - |
+        Add2Outlook is desktop solution for Outlook users interested in
+        one way or two way sync of calendars, contacts, and/or task
+        folders on a single workstation.  This solution is ideal for you
+        if you are an Outlook user who wants to replicate between two
+        local PST files or need to sync a PST file with a hosted
+        Exchange Server public folder or are looking for private to
+        private replication in a hosted Exchange environment.  For a
+        server-side solution to sync Exchange public folders and
+        personal mailbox folders for viewing on mobile devices, see
+        Add2Exchange.
+  - name: Recovery and Migration Manager
+    image: addons-box-left-250.png
+    id: rmm-enterprise
+    url: rmm-enterprise
+    descriptions:
+      - |
+        Recovery and Migration Manager is a helpful Add2Exchange tool
+        which fixes folder mappings for relationships in alert due to
+        changes in Exchange folder/mailbox IDs when changes are made to
+        folders with active Add2Exchange relationships.  The Recovery
+        and Migration Manager is often needed to fix Add2Exchange
+        relationships in alert status when accounts change, after a move
+        of a user to any other server or organizational unit with an
+        active Add2Exchange relationship, after an Exchange failure or
+        migration, Exchange cluster failover, or any other time the IDs
+        of the source, destination or pivot folders change, or after a
+        folder is deleted and restored.
+  - name: TaskController
+    image: tc_box_left_250.png
+    id: taskcontroller
+    url: taskcontroller
+    descriptions:
+      - |
+        TaskController is a group task collaboration solution for
+        Microsoft Outlook and Exchange users. TaskController helps you
+        better manage your projects and take better control of your
+        tasks.  Ideal for enterprise-wide or departmental tasking,
+        TaskController users can easily create, assign, group,
+        prioritize, document, route, track, manage and share project
+        tasks.  Shortcut links to tasks can be emailed to a team
+        member's inbox and calendar appointments (in a personal calendar
+        or public calendar) can be created with links to the original
+        task so managers or team leaders can review the status of the
+        project anytime.
