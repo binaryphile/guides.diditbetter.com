@@ -16,3 +16,5 @@ stylesheets/
 
 # Ignore .DS_store file
 *.DS_Store
+
+.s3_sync

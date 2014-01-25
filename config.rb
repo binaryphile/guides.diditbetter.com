@@ -68,3 +68,17 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket                     = 'guides.diditbetter.com' # The name of the S3 bucket you are targetting. This is globally unique.
+  s3_sync.region                     = 'us-east-1'     # The AWS region for your bucket.
+  # s3_sync.aws_access_key_id          = 'AWS KEY ID'
+  # s3_sync.aws_secret_access_key      = 'AWS SECRET KEY'
+  s3_sync.delete                     = false # We delete stray files by default.
+  # s3_sync.after_build                = false # We do not chain after the build step by default.
+  # s3_sync.prefer_gzip                = true
+  # s3_sync.path_style                 = true
+  s3_sync.reduced_redundancy_storage = true
+  # s3_sync.acl                        = 'public-read'
+  # s3_sync.encryption                 = false
+end
