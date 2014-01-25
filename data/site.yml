@@ -6,7 +6,7 @@ nav:
   - name: RMM
     url: rmm-enterprise
   - name: TaskController
-    url: taskcontroller
+    url: tc-guide
 
 sidebar:
   - name: Add2Exchange Enterprise
@@ -98,7 +98,7 @@ products:
   - name: TaskController
     image: tc_box_left_250.png
     id: taskcontroller
-    url: taskcontroller
+    url: tc-guide
     descriptions:
       - |
         TaskController is a group task collaboration solution for
